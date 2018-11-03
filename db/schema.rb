@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2018_11_01_075500) do
     t.string "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
     t.string "password_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
