@@ -5,6 +5,7 @@ ruby '2.5.1'
 gem 'bcrypt'
 gem 'carrierwave'
 gem 'rmagick'
+gem 'will_paginate'
 
 gem 'jquery-rails'
 
